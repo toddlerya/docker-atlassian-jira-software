@@ -4,7 +4,7 @@ MAINTAINER toddlerya <toddlerya@qq.com>
 ENV RUN_USER            root
 ENV RUN_GROUP           root
 
-ENV JIRA_HOME          /var/atlassian/application-data/jira
+ENV JIRA_HOME          /var/atlassian/jira
 ENV JIRA_INSTALL_DIR   /opt/atlassian/jira
 
 VOLUME ["${JIRA_HOME}"]
